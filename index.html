@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>승민'S 포트폴리오</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./images/logo_mk7_icon.ico" >
+  <!-- 초기화 -->
+  <link href="./css/reset.css" type="text/css" rel="stylesheet">
+
+  <!-- 기본, 공통서식 -->
+  <link href="./css/base.css" type="text/css" rel="stylesheet">
+
+  <!-- 레이아웃서식 -->
+  <link href="./css/layout.css" type="text/css" rel="stylesheet">
+
+  <!-- 콘텐츠 내용 서식 -->
+  <link href="./css/main.css" type="text/css" rel="stylesheet">
+
+  <!-- 스와이퍼 슬라이드 서식 -->
+  <link href="./css/swiper.css" type="text/css" rel="stylesheet">
+
+  <!-- 아이콘폰트 주소 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- css3속성 사용시 접두사 자동으로 붙여주는 스크립트 소스 -->
+  <script src="./script/prefixfree.min.js"></script>
+
+  <!-- 제이쿼리 라이브러리 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+  <!-- 제이쿼리 ui라이브러리 -->
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+  <!-- 제이쿼리 쿠키파일 -->
+  <script src="./script/jquery.cookie.js"></script>
+
+  <!-- 제이쿼리 공통 스크립트 -->
+  <script src="./script/layout.js"></script>
+
+  <!-- 콘텐츠 스크립트 -->
+  <script src="./script/main.js"></script>
+  
+</head>
+<body>
+  <!-- 헤더영역 시작 -->
+  <header>
+    <h1>
+      <a href="index.html" title="메인페이지로 바로가기">
+        <img src="./images/logo.png" alt="상단로고">
+      </a>
+    </h1>
+
+    <!-- 상단 내비게이션 -->
+    <nav>
+      <ul class="gnb">
+        <li><a href="#about" title="about">about</a></li>
+        <li><a href="#project" title="project">project</a></li>
+        <li><a href="#publising" title="publising ">publising</a></li>
+        <li><a href="#contact" title="contact">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 원형내비게이션 -->
+  <nav id="m_nav">
+    <ul>
+      <li><span>1</span><a href="#" title="about">about</a></li>
+      <li><span>2</span><a href="#" title="project">project</a></li>
+      <li><span>3</span><a href="#" title="publising">publising</a></li>
+      <li><span>4</span><a href="#" title="contact">contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- 메인영역 시작 -->
+  <main>
+    <section id="main_intro">
+      <!-- 텍스트 얼라인센터 할때 감사줄것이 없어서  -->
+      <h2>메인</h2>
+      <article>
+        <img src="./images/intro.jpg" alt="메인이미지">
+      </article>
+    </section>
+
+
+    <section id="about">
+      <h2>about</h2>
+      <article class="about_l">
+        <img src="./images/ID_picture.jpg" alt="증명사진">
+        <ul>
+          <li>profile</li>
+          <li>오승민</li>
+          <li>whiteosm@naver.com</li>
+          <li>서울시 강북구 거주</li>
+        </ul>
+      </article>
+
+
+      <article class="about_r">
+        <ul class="a_list01">
+          <li>Education</li>
+          <li>2023.08 그린컴퓨터아트학원 UI/UX반응형<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;웹디자인&#38;웹퍼블리셔(코딩) 개발자 정규과정 수료</li>
+          <li>2019.02 세경대학 미술치료과 졸업</li>
+          <li>2017.02 용화여자고등학교 졸업</li>
+        </ul>
+
+        <ul class="a_list02">
+          <li>License</li>
+          <li>2023.08 GTQ 1급</li>
+          <li>2020.10 전산회계 1급</li>
+          <li>2020.08 ITQ엑셀</li>
+        </ul>
+
+        <ul class="a_list03">
+          <li>Skills</li>
+          <li><span class="s_title">html5</span><div class="bar bar1">&nbsp;75%</div></li>
+          <li><span class="s_title">CSS3</span><div class="bar bar2">&nbsp;80%</div></li>
+          <li><span class="s_title">JS&#38;JQ</span><div class="bar bar3">&nbsp;50%</div></li>
+          <li><span class="s_title">PS</span><div class="bar bar4">&nbsp;90%</div></li>
+          <li><span class="s_title">IA</span><div class="bar bar5">&nbsp;70%</div></li>
+        </ul>
+
+        <ul class="a_list04">
+          <li>Personality</li>
+          <li><img src="./images/personality.png" alt=""></li>
+      </article>
+    </section>
+
+    <section id="project">
+    <h2>project</h2>
+      <div class="swiper project" id="swiper project">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"> 
+          <img src="./images/emoi_mockup.jpg" alt="에머이">
+          <ul>
+            <li>My works #1</li>
+            <li><span class="pro_title">사이트명 : </span> 에머이(PC 전용)</li>
+            <li><span class="pro_title">제작기간 : </span> 약 한달(기획/디자인/코딩)</li>
+            <li><span class="pro_title">제 작 물 : </span>  PC 메인페이지</li>
+            <li><span class="pro_title">컨셉설명 : </span> </li>
+          </ul>
+          <div class="btn_group">
+            <a href="https://sm-oh.github.io/emoi/" title="web바로가기" class="btn b_btn1"> web바로가기 &gt;</a>
+            <a href="#" title="상세페이지" class="btn b_btn2_1">상세페이지 &gt;</a>
+          </div>      
+        </div>
+
+        <div class="swiper-slide">
+          <img src="./images/walkholic_mockup.jpg" alt="워크홀릭">
+          <ul>
+            <li>My works #2</li>
+            <li><span class="pro_title">사이트명 : </span> 워크홀릭(팀프로젝트)</li>
+            <li><span class="pro_title">제작기간 : </span> 약 한달(기획/디자인/코딩)</li>
+            <li><span class="pro_title">제 작 물 : </span> PC, 모바일 메인페이지</li>
+            <li><span class="pro_title">기 여 도 : </span> 로그인 페이지</li>
+            <li><span class="pro_title">컨셉설명 : </span> </li>
+          </ul>
+          <div class="btn_group">
+            <a href="https://sm-oh.github.io/walkholic-pc/" title="web바로가기" class="btn b_btn1"> web바로가기 &gt;</a>
+            <a href="#" title="상세페이지" class="btn b_btn2_2">상세페이지 &gt;</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="./images/ttiun_mockup.jpg" alt="틔운">
+          <ul>
+            <li>My works #3</li>
+            <li><span class="pro_title">사이트명 : </span> 틔운</li>
+            <li><span class="pro_title">제작기간 : </span> 약 2주(기획/디자인/코딩)</li>
+            <li><span class="pro_title">제 작 물 : </span> PC, 모바일 메인페이지</li>
+            <li><span class="pro_title">컨셉설명 : </span> </li>
+          </ul>
+          <div class="btn_group">
+            <a href="https://sm-oh.github.io/scroll_ttiun/" title="web바로가기" class="btn b_btn1"> web바로가기 &gt;</a>
+            <a href="#" title="상세페이지" class="btn b_btn2_3">상세페이지 &gt;</a>
+          </div>
+
+        </div>
+
+        <!-- <div class="swiper-slide">
+          <img src="./images/uxui design1.jpg" alt="ux디자인">
+          <img src="./images/uxui design2.jpg" alt="ui디자인">
+          <ul>
+            <li>My works #4</li>
+            <li><span class="pro_title">제작기간 : </span> 1일(디자인)</li>
+            <li><span class="pro_title">제 작 물 : </span> </li>
+            <li><span class="pro_title">컨셉설명 : </span> </li>
+          </ul>
+        </div> -->
+      </div>
+
+
+      <!-- 콘트롤 버튼 -->
+      <div class="swiper-pagination2"></div>
+      <!-- 좌, 우버튼  -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </section>
+
+    <section id="publising">
+      <h2>publising</h2>
+      <div>
+        <div class="flex-container">
+          <ul class="flex-slide shine">
+            <li>
+              <a href="https://sm-oh.github.io/harimpetfood/" title="하림펫푸드">하림펫푸드</a>
+              <img src="./images/harim_mockdup.jpg" alt="하림펫푸드">
+            </li>
+            <li>
+              <a href="https://sm-oh.github.io/casper/" title="캐스퍼">캐스퍼</a>
+              <img src="./images/casper_mockup.jpg" alt="캐스퍼">
+            </li>
+            <li>
+              <a href="https://sm-oh.github.io/africa-animal-medical-center/" title="아프리카동물메디컬센터">아프리카동물메디컬센터</a>
+              <img src="./images/africa_mockup.jpg" alt="아프리카동물메디컬센터">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  <!-- 푸터영역 시작 -->
+  <footer>
+    <section id="contact">
+      <div>
+        <div class="f_box">
+          <p>
+            <i class="fa-solid fa-phone"></i><span>Phone</span>010-5825-5111 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa-solid fa-envelope"></i><span>E-Mail</span>whiteosm@naver.com
+          </p>
+          <span>copyright OHSEUNGMIN. All Rights Reserved.</span>
+        </div>
+      </div>
+  
+
+    </section>
+  </footer>
+
+  <!-- 스와이퍼 슬라이드 스크립트 -->
+  <script src="./script/swiper.js"></script>
+  <script>
+    var swiper = new Swiper(".project", {
+      autoplay:{
+        delay:2500, //자동으로 움직이는 시간설정
+        disableOnInteraction: false,
+      },
+      loop: true, //무한반복
+      navigation:{ //좌, 우 방향버튼 나오게 (클릭기능)
+        nextEl:".project .swiper-button-next",
+        prevEl:".project .swiper-button-prev",
+      },
+      pagination:{
+        el:".swiper-pagination2",
+        clickable: true, //콘트롤버튼 클릭기능
+      }
+    });
+  </script>
+
+</body>
+</html>

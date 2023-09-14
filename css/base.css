@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/*웹폰트 연결하기 */
+@font-face { font-family: 'omyu_pretty'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'InkLipquid'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+/* 모든 페이지에 공통으로 적용되는 서식 */
+:root{
+  --t-color01:#333;
+  --t-color02:#fff;
+  --t-color03:#066aad;
+  --bg-color01 : #fff;
+  --bg-color02:#DDE0E7;
+  --t-size12 : 12px;
+  --t-size14 : 14px;
+  --t-size16 : 16px;
+  --t-size18 : 18px;
+}
+
+body{
+  font-family: 'omyu_pretty', '맑은 고딕', sans-serif;
+  font-size:var(--t-size12);
+  color:var(--t-color01);
+  background:var(--bg-color01);
+  overflow-x:hidden;
+}
+a{
+  color:var(--t-color01);
+  text-decoration:none;
+  font-size:var(--t-size12);
+}
+
