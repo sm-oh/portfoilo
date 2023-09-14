@@ -54,7 +54,7 @@ header .gnb > li > a{
   position:fixed;
   right:30px;top:50%;
   transform:translateY(-50%);
-  z-index:1000;
+  z-index:100;
   width:200px;height:200px;
 }
 #m_nav ul{position:relative;}
